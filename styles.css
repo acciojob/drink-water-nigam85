@@ -1,1 +1,59 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+h3 {
+    color: #666;
+}
+
+.cup {
+    width: 200px;
+    height: 300px;
+    background-color: #00bcd4;
+    margin: 20px auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#remained, #percentage {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.cups {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cup-small {
+    width: 40px;
+    height: 80px;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cup-small.full {
+    background-color: #4caf50;
+}
